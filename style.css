@@ -1,6 +1,6 @@
 body{
-    background-color: #009788;
-    font-family: "Raleway", sans-serif;
+    background-color: darkslategray;
+    font-family: "Raleway", Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -9,8 +9,12 @@ body{
 }
 
 p{
-   color: white;
+   color: #fff;
    font-size: 10vw;
+}
+
+.container{
+    width: 100%;
 }
 
 #clock{
@@ -18,22 +22,22 @@ p{
     text-align: center;
 }
 
-#progressBarContainer{
-    transform: rotate(180deg);
-}
-
-.buttonSection{
+.buttonsection{
     width: 100%;
     padding-top: 3rem;
 }
 
 .roundButton{
     border-radius: 50%;
-    background-color: white;
+    background-color: #fff;
     border: 0;
     width: 5rem;
     height: 5rem;
     font-size: 1rem;
+}
+
+.roundButton:hover{
+    background-color: darkslategrey;
 }
 
 .button1{
@@ -58,7 +62,9 @@ p{
     text-align: center;
 }
 
-
+#progressBarContainer{
+    transform: rotate(180deg);
+}
 
 
 
